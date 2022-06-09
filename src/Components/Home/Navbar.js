@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const menuItems = <>
-        <li><a to='#home'>Home</a></li>
-        <li><a to='#about'>About</a></li>
+        <li><Link to='/'>Home</Link></li>
+        <li><Link to='#about'>About</Link></li>
         <li><a to='#skills'>Skills</a></li>
         <li><a to='#service'>Service</a></li>
-        <li><a to='#portfolio'>Portfolio</a></li>
+        <li><Link to='#portfolio'>Portfolio</Link></li>
         <li><a to='#blog'>Blog</a></li>
         <li><a to='#contact'>Contact me</a></li>
 

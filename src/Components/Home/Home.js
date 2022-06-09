@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className=''>
             <div class="card lg:card-side flex justify-evenly bg-black shadow-xl">
-                <figure><img className='w-80 lg:pl-10' src={alamin} alt="Album" /></figure>
+                <figure><img className='w-96 lg:pl-10 rounded-lg' src={alamin} alt="Album" /></figure>
                 <div class="lg:px-10 ">
                     <h1 className='text-xl text-white'>HI THERE</h1>
                     <h2 class=" text-4xl font-semibold  text-white">I'M <span className='text-purple-700'>Md Al Amin Hossain</span></h2>
