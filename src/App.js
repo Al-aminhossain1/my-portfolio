@@ -1,6 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Components/Home/About';
+import Contact from './Components/Home/Contact';
+import Footer from './Components/Home/Footer';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Home/Navbar';
 import Portfolio from './Components/Home/Portfolio';
@@ -13,7 +15,8 @@ function App() {
       <Home></Home>
       <About></About>
       <Portfolio></Portfolio>
-
+      <Contact></Contact>
+      <Footer></Footer>
 
       {/* <Routes>
 
