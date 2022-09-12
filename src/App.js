@@ -6,9 +6,11 @@ import Footer from './Components/Home/Footer';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Home/Navbar';
 import Portfolio from './Components/Home/Portfolio';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  AOS.init();
   return (
     <div className="">
       <Navbar ></Navbar>
