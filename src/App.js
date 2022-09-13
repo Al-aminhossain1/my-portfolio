@@ -8,14 +8,16 @@ import Navbar from './Components/Home/Navbar';
 import Portfolio from './Components/Home/Portfolio';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Skill from './Components/Home/Skill';
 
 function App() {
   AOS.init();
   return (
-    <div className="">
+    <div className="App">
       <Navbar ></Navbar>
       <Home></Home>
       <About></About>
+      <Skill></Skill>
       <Portfolio></Portfolio>
       <Contact></Contact>
       <Footer></Footer>

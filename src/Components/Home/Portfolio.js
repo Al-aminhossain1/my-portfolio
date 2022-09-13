@@ -12,7 +12,7 @@ const Portfolio = () => {
             <div className=''>
                 <h1 className='text-center text-4xl font-bold text-yellow-700 pt-16'>MY PORTFOLIO</h1>
             </div>
-            <div data-aos="fade-up"
+            <div data-aos="zoom-in-up"
                 data-aos-duration="1000"
                 data-aos-delay="400"
                 className='grid grid-cols-1 lg:grid-cols-2 gap-10 py-16 lg:pl-40 pl-0'>
