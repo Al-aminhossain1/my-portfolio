@@ -15,43 +15,93 @@ const Skill = () => {
     return (
         <div className='text-center text-3xl font-bold mt-5'>
             <h1>SKILLS</h1>
-            <div className='grid grid-cols-6 '>
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20 m-5' src={html} alt="html" />
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20 m-5' src={css} alt="html" />
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20 m-5' src={bootstrap} alt="html" />
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20' src={tailwind} alt="html" />
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20' src={javascript} alt="html" />
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20' src={react} alt="html" />
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20' src={firebase} alt="html" />
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20' src={github} alt="html" />
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20' src={node} alt="html" />
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20' src={express} alt="html" />
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20' src={mongodb} alt="html" />
-                <img data-aos="flip-left"
-                    data-aos-duration="2000"
-                    className='w-20' src={redux} alt="html" />
+            <div className='grid grid-cols-2 lg:grid-cols-6 px-14 lg:px-20 '>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={html} alt="html" /></figure>
+                </div>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={css} alt="html" /></figure>
+                </div>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={bootstrap} alt="html" /></figure>
+                </div>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={tailwind} alt="html" />
+                    </figure>
+                    <p className='font-medium text-lg '>Tailwind</p>
+                </div>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={javascript} alt="html" /></figure>
+                </div>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={react} alt="html" /></figure>
+                </div>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={firebase} alt="html" /></figure>
+                </div>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={github} alt="html" /></figure>
+                </div>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={node} alt="html" /></figure>
+                </div>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={express} alt="html" /></figure>
+                </div>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={mongodb} alt="html" /></figure>
+                </div>
+                <div class="card w-24 bg-base-100">
+                    <figure><img
+                        data-aos="flip-left"
+                        data-aos-duration="2000"
+                        className='w-20 m-5 bg-white'
+                        src={redux} alt="html" /></figure>
+                </div>
             </div>
         </div>
     );
